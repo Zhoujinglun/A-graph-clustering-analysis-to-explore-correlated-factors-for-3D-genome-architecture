@@ -11,12 +11,12 @@ Workflow Overview
 Our research strategy, incorporates advanced computational methods to systematically investigate the regulatory factors influencing 3D genomic architecture. The methodology consists of several key steps:
 
 1.Data Collection: We utilized Micro-C data from human MCF7 cells, focusing on TAD boundaries, chromatin hubs, and stripes to capture essential features of 3D genomic architecture.
-![alt text](IMG/IMG_3.png "Input data")
+![alt text](IMG/IMG_4.png "Input data")
 
 2.Overlap Matrix Construction: An Overlap Matrix was constructed to quantify the enrichment of transcription factors (identified via ChIP-seq) within the 3D chromatin structure. This matrix facilitates the analysis by representing specific intervals (rows) and corresponding factors (columns).
 
 3.Signal Vector Aggregation: We aggregated average changes in peak intensity for key factors known to impact 3D chromatin structure (e.g., CTCF and cohesin) into a peak signal vector, enabling a focused analysis of their roles.
-![alt text](IMG/IMG_4.png "Construction of overlap matrix and reference peak signal")
+![alt text](IMG/IMG_3.png "Construction of overlap matrix and reference peak signal")
 
 4.1D Score Extraction: Employing HiC1Dmetrix, we extracted one-dimensional (1D) scores associated with each 3D chromatin structure, forming a 1D score vector to enhance the model's comprehension of chromatin architecture.
 ![alt text](IMG/IMG_2.png "Construction of 3D structure score")
